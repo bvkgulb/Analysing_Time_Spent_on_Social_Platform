@@ -9,21 +9,23 @@ How does the average time spent vary across different demographics (age, gender,
 Social media platforms have become an integral part of our daily lives, offering a wide range of services from connecting with friends and family to consuming news and entertainment. One key metric that social media companies often track is the average time spent by users on their platforms. Understanding this metric can provide valuable insights into user engagement and platform usage patterns.
 
 # Input Features:
- #   Column        Non-Null Count  Dtype 
----  ------        --------------  ----- 
- 0   age           1000 non-null   int64 
- 1   gender        1000 non-null   object
- 2   time_spent    1000 non-null   int64 
- 3   platform      1000 non-null   object
- 4   interests     1000 non-null   object
- 5   location      1000 non-null   object
- 6   demographics  1000 non-null   object
- 7   profession    1000 non-null   object
- 8   income        1000 non-null   int64 
- 9   indebt        1000 non-null   bool  
- 10  isHomeOwner   1000 non-null   bool  
- 11  Owns_Car      1000 non-null   bool  
- 
+<table>
+ <thead><tr><th>#</th><th>Column</th><th>Non-Null Count</th><th>Dtype</th></tr></thead> 
+<tbody>
+<tr><td> 0</td><td>   age </td><td>1000 non-null </td><td>  int64 </td></tr>
+<tr><td> 1</td><td>   gender      </td><td>  1000 non-null  </td><td> object </td></tr>
+ <tr><td>2</td><td>   time_spent  </td><td>  1000 non-null  </td><td> int64  </td></tr>
+ <tr><td>3</td><td>   platform     </td><td> 1000 non-null </td><td>  object </td></tr>
+ <tr><td>4</td><td>   interests    </td><td> 1000 non-null  </td><td> object </td></tr>
+ <tr><td>5</td><td>   location    </td><td>  1000 non-null </td><td>  object </td></tr>
+ <tr><td>6</td><td>   demographics </td><td> 1000 non-null  </td><td> object </td></tr>
+ <tr><td>7</td><td>   profession   </td><td> 1000 non-null  </td><td> object </td></tr>
+ <tr><td>8</td><td>   income       </td><td> 1000 non-null </td><td>  int64  </td></tr>
+ <tr><td>9</td><td>   indebt      </td><td>  1000 non-null </td><td>  bool   </td></tr>
+ <tr><td>10</td><td>  isHomeOwner  </td><td> 1000 non-null </td><td>  bool   </td></tr>
+ <tr><td>11</td><td>  Owns_Car     </td><td> 1000 non-null </td><td>  bool   </td></tr>
+ </tbody>
+ </table>
  # Target Feature
     time_spent
     
